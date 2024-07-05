@@ -20,7 +20,8 @@ main {
     display: flex;
     justify-content: center;
     height: 90vh;
-
+    overflow: auto;
+    padding: 3rem;
 }
 
 .todolistcontainer ul {
