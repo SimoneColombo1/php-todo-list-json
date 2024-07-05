@@ -14,7 +14,7 @@ createApp({
         getTodoList() {
             axios.get(this.api)
                 .then((response) => {
-                    console.log(response);
+                    console.log(response.data.list);
                     this.todolist = response.data.list;
 
                 })
