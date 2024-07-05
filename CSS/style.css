@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+
+}
+
+main {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+
+}
+
+.todolistcontainer ul {
+    background-color: beige;
+    margin-top: 4rem;
+    border: solid 3px black;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.todolistcontainer ul li {
+    margin: 1rem;
+}
+
+.todolistcontainer input {
+    width: 15rem;
+    margin-top: 1rem;
+
+}
