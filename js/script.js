@@ -6,6 +6,7 @@ createApp({
     data() {
         return {
             todolist: [],
+            name: '',
             api: './api/list.php',
         }
     },
@@ -30,7 +31,20 @@ createApp({
 
                 })
 
+        },
+
+        NewTask(name) {
+
+            task = {
+                attività: name,
+                completed: false
+
+            };
+            this.todolist.push(task);
+            this.name = "";
+
         }
+
     },
     created() {
         this.getTodoList()

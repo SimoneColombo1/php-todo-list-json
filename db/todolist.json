@@ -2,12 +2,10 @@
     "list": [
         {
             "attività": "Fare la spesa",
-            "priorità": "Alta",
             "completato": false
         },
         {
             "attività": "Lavare i piatti",
-            "priorità": "Media",
             "completato": false
         },
         {
@@ -17,37 +15,30 @@
         },
         {
             "attività": "Pulire la casa",
-            "priorità": "Alta",
             "completato": false
         },
         {
             "attività": "Studiare per l'esame",
-            "priorità": "Alta",
             "completato": false
         },
         {
             "attività": "Andare in palestra",
-            "priorità": "Media",
             "completato": false
         },
         {
             "attività": "Chiamare il dottore",
-            "priorità": "Alta",
             "completato": false
         },
         {
             "attività": "Scrivere il rapporto",
-            "priorità": "Media",
             "completato": false
         },
         {
             "attività": "Leggere un libro",
-            "priorità": "Bassa",
             "completato": false
         },
         {
             "attività": "Preparare la cena",
-            "priorità": "Alta",
             "completato": false
         }
     ]

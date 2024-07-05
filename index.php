@@ -12,7 +12,25 @@
     <main id="app">
 
 
+        <section class="todolistcontainer">
 
+
+            <ul>
+                <li v-for="(Listitem, index) in todolist" :key="index">
+
+                    <P>{{Listitem.attività}}</P>
+
+                </li>
+
+            </ul>
+
+
+            <input type="text" @keyup.enter="NewTask(name)" v-model="name">
+
+
+
+
+        </section>
 
 
 
